@@ -1,0 +1,31 @@
+{
+  "model": "results/expanded/model.pt",
+  "model_sha256": "18d35daf64cd8551a2df487befb20490c86a6007b1c1d23cacb9e2df46d20abd",
+  "completed_steps": 3000,
+  "fresh_context_per_prompt": true,
+  "temperature": 0.8,
+  "max_tokens": 24,
+  "turns": [
+    {
+      "prompt": "the customer",
+      "seed": 2026,
+      "response": "recommended the item after checking the price .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "the teacher",
+      "seed": 2027,
+      "response": "sound the early to a banana new pear .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    },
+    {
+      "prompt": "class",
+      "seed": 2028,
+      "response": "and scale a question about the important teacher during a lesson .",
+      "unknown_prompt_words": [],
+      "prompt_truncated": false
+    }
+  ]
+}

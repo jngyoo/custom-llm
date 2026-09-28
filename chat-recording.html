@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>Recorded nanoGPT chat</title><style>body{font:17px system-ui;max-width:1050px;margin:40px auto;padding:0 24px;background:#f6f7fa;color:#172034}pre{background:#152032;color:#eff5ff;padding:24px;white-space:pre-wrap;line-height:1.7;border-radius:10px}button{padding:10px 20px;font:inherit}</style><h1>Actual saved-model chat recording</h1><p>Extension 1 · 3,000 training steps · three fresh prompts. Recorded from chat.py during submission verification, not the original Colab session.</p><p>Model SHA-256: <code>18d35daf64cd8551a2df487befb20490c86a6007b1c1d23cacb9e2df46d20abd</code></p><button onclick="replay()">Replay</button><pre id="terminal">number of parameters: 0.12M
+Tiny language model: short continuations, not a general assistant.
+Each prompt starts fresh. Context: 48 tokens. Type /quit to exit.
+You: the customer
+Model: recommended the item after checking the price .
+You: the teacher
+Model: sound the early to a banana new pear .
+You: class
+Model: and scale a question about the important teacher during a lesson .
+You: /quit
+Saved transcript: recorded-chat.json
+</pre><p>Raw recording: chat-recording.cast. Machine-readable transcript: recorded-chat.json.</p><script>const events=[[1.4952, "o", "number of parameters: 0.12M\r\n"], [1.4968, "o", "Tiny language model: short continuations, not a general assistant.\r\nEach prompt starts fresh. Context: 48 tokens. Type /quit to exit.\r\n"], [1.4969, "o", "You: "], [1.4969, "o", "the customer\r\n"], [1.5183, "o", "Model: recommended the item after checking the price .\r\n"], [1.5183, "o", "You: "], [1.5183, "o", "the teacher\r\n"], [1.5209, "o", "Model: sound the early to a banana new pear .\r\n"], [1.5209, "o", "You: "], [1.521, "o", "class\r\n"], [1.5243, "o", "Model: and scale a question about the important teacher during a lesson .\r\n"], [1.5244, "o", "You: "], [1.5244, "o", "/quit\r\n"], [1.5246, "o", "Saved transcript: recorded-chat.json"], [1.5246, "o", "\r\n"]];let timer=[];function replay(){timer.forEach(clearTimeout);timer=[];terminal.textContent='';for(const e of events){timer.push(setTimeout(()=>terminal.textContent+=e[2],e[0]*1000));}}</script>

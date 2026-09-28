@@ -2,3 +2,7 @@ torch>=2.2,<3
 pypdf>=5,<7
 # For local notebook use only; Colab includes notebook tooling.
 jupyter>=1.0
+
+
+# Required by model_hash() when saving evaluation and chat evidence.
+numpy>=1.26,<3

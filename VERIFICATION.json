@@ -1,0 +1,103 @@
+{
+  "python": "3.9.6",
+  "torch": "2.8.0",
+  "device": "cpu",
+  "platform": "macOS-15.5-arm64-arm-64bit",
+  "checks": [
+    {
+      "run": "starter",
+      "stage": "untrained",
+      "model_sha256": "d16f052394ba2c5750b7ab18406da2ed6229e4317a442765e9d809b536a13364",
+      "overall": {
+        "correct": 9,
+        "total": 48,
+        "scorable": 24,
+        "success_rate_all_cases": 0.1875,
+        "accuracy_scorable_cases": 0.375,
+        "coverage": 0.5
+      },
+      "matches_saved_scores": true
+    },
+    {
+      "run": "starter",
+      "stage": "final",
+      "model_sha256": "a0fb06406d96c728860c40960c8d849779f3531b29b210e1c75f3f02f692d7af",
+      "overall": {
+        "correct": 20,
+        "total": 48,
+        "scorable": 24,
+        "success_rate_all_cases": 0.4166666666666667,
+        "accuracy_scorable_cases": 0.8333333333333334,
+        "coverage": 0.5
+      },
+      "matches_saved_scores": true
+    },
+    {
+      "run": "expanded",
+      "stage": "untrained",
+      "model_sha256": "638dccd91a4b477c6e1e1804cce52c55d6869e49b9734e324395778fc8aa88b2",
+      "overall": {
+        "correct": 6,
+        "total": 48,
+        "scorable": 26,
+        "success_rate_all_cases": 0.125,
+        "accuracy_scorable_cases": 0.23076923076923078,
+        "coverage": 0.5416666666666666
+      },
+      "matches_saved_scores": true
+    },
+    {
+      "run": "expanded",
+      "stage": "final",
+      "model_sha256": "18d35daf64cd8551a2df487befb20490c86a6007b1c1d23cacb9e2df46d20abd",
+      "overall": {
+        "correct": 23,
+        "total": 48,
+        "scorable": 26,
+        "success_rate_all_cases": 0.4791666666666667,
+        "accuracy_scorable_cases": 0.8846153846153846,
+        "coverage": 0.5416666666666666
+      },
+      "matches_saved_scores": true
+    },
+    {
+      "run": "expanded2",
+      "stage": "untrained",
+      "model_sha256": "24bc3451186ae9595d932ebfd40c98b6416fa1ea6976555668385fe28bbae97d",
+      "overall": {
+        "correct": 5,
+        "total": 48,
+        "scorable": 26,
+        "success_rate_all_cases": 0.10416666666666667,
+        "accuracy_scorable_cases": 0.19230769230769232,
+        "coverage": 0.5416666666666666
+      },
+      "matches_saved_scores": true
+    },
+    {
+      "run": "expanded2",
+      "stage": "final",
+      "model_sha256": "2092cd8c14fe3e73c3437aef1e47788ae770e6f86eb9cbe8f4d606794777a240",
+      "overall": {
+        "correct": 21,
+        "total": 48,
+        "scorable": 26,
+        "success_rate_all_cases": 0.4375,
+        "accuracy_scorable_cases": 0.8076923076923077,
+        "coverage": 0.5416666666666666
+      },
+      "matches_saved_scores": true
+    }
+  ],
+  "chat_cli_runs": [
+    "starter",
+    "expanded",
+    "expanded2"
+  ],
+  "chat_prompts": [
+    "the customer",
+    "the teacher",
+    "class"
+  ],
+  "note": "Verification reruns on macOS; original training artifacts remain unchanged. Sampling can differ across versions/platforms."
+}
